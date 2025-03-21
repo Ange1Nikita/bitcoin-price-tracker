@@ -1,0 +1,13 @@
+{
+    "name": "data-collector",
+    "version": "1.0.0",
+    "description": "Data collector service for Bitcoin Price Tracker",
+    "main": "data-collector.js",
+    "scripts": {
+      "start": "node data-collector.js"
+    },
+    "dependencies": {
+      "axios": "^1.4.0",
+      "sqlite3": "^5.1.6"
+    }
+  }
